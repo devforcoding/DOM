@@ -1,0 +1,11 @@
+window.mcwidget = {"appId":"532160876956612","pageId":"280900745429764","widgets":[{"widget_id":3041018,"page_id":"280900745429764","widget_type":"customer_chat","status":"active","name":"Blog message button","data":{"setup":{"loggedOutGreeting":"","urlWhitelist":["https://beetroot.academy/blog/**"],"colors":{"theme":"#8FD6BD"},"urlBlacklist":""},"actions":{"sequence":"303109"}},"chat_ref":"w3041018"},{"widget_id":923442,"page_id":"280900745429764","widget_type":"landing","status":"active","name":"Example Landing","data":[]}],"widgetLocale":"uk_UA","defaultSize":0,"fbSDKVersion":"v3.1"};
+
+(function(d, s, id){
+    var host = 'manychat.com/108855';
+
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) { return; }
+    js = d.createElement(s); js.id = id;
+    js.src = '//' + host + '/assets/js/widget.js?' + (Math.round(+new Date/1000/600));
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'mcwidget-core'));
